@@ -74,18 +74,17 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Postdoc Research Assistant Mathematics
+        title: Postdoc
         #link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Postdoc Research Assistant Mathematics
+        caption: 2022 - Present
         quote: >
           no quote
         description: | # this will include new lines to allow paragraphs
             Stuod research project
 
 #-Present & Postdoc Research Assistant Mathematics, Imperial College London, UK
-
   
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -99,7 +98,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           description
         
-
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
