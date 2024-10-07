@@ -6,8 +6,8 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: James Woodfiekd
-title: Senior Network System Administrator
+name: James Woodfield
+title: Postdoc Research Assistant Mathematics
 email: james14641@gmail.com
 website: https://james14641.github.io
 
@@ -84,7 +84,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             Stuod research project
 
--Present & Postdoc Research Assistant Mathematics, Imperial College London, UK
+#-Present & Postdoc Research Assistant Mathematics, Imperial College London, UK
 
   
   - title: Education # Title for the section
@@ -103,11 +103,12 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      List of interests:
       - TBD
+      - TBD 2
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      This is how to add image  
+      ![Trees](/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
