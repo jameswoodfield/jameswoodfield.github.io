@@ -56,12 +56,12 @@ content:
     content:
       - layout: top-middle
         title: Point vortex solver
-        link: github.com/sproogen
+        link: github.com/functioning_link
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Papers associated
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/link_to_functioning_website
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
