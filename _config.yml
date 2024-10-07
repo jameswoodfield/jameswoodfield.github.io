@@ -13,7 +13,6 @@ website: https://james14641.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
-
 # Social links
 #twitter_username: none
 github_username:  james14641
@@ -48,12 +47,28 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Woody and I'm trying to make a website using git.
-
   I am most skilled in: <mark></mark>
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Point vortex solver
+        link: github.com/functioning_link
+        # link_text: Project Website
+        additional_links:
+          - title:  Papers associated
+            icon: fab fa-github
+            url: github.com/link_to_functioning_website
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is going to be a link to a solver. 
+        description: | # this will include new lines to allow paragraphs
+          This will solve fluids via inviscid vortex methods. 
+
+
       - layout: top-middle
         title: Point vortex solver
         link: github.com/functioning_link
@@ -100,7 +115,7 @@ content:
           description
       - layout: left
         title: Imperial College London 
-        caption: 2017 - 2018
+        caption: 2018 - 2019
         sub_title: Mres Mathematics
         quote: >
             no quote yet
