@@ -98,13 +98,7 @@ content:
             no quote yet
         description: | # this will include new lines to allow paragraphs
           description
-        title: Imperial College 
-        caption: 2018 - 2022
-        sub_title: Mres Mathematics
-        quote: >
-            no quote yet
-        description: | # this will include new lines to allow paragraphs
-          description
+        
 
   - title: A Little More About Me
     layout: text
