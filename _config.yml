@@ -10,6 +10,7 @@ name: James Woodfield
 title: Postdoc Research Assistant Mathematics
 email: james14641@gmail.com
 website: https://james14641.github.io
+Google Scholar: https://scholar.google.com/citations?user=mAwYQ9AAAAAJ&hl=en
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -46,8 +47,8 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Woody and I'm trying to make a website using git.
-  I am most skilled in: <mark></mark>
+  Hi, my name's Woody, I'm a postdoc researcher at Imperial College London.
+  My Research interests are: <mark></mark>
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -59,14 +60,14 @@ content:
         additional_links:
           - title:  Papers associated
             icon: fab fa-github
-            url: https://arxiv.org/pdf/2405.00640
+            link: https://arxiv.org/pdf/2405.00640
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           This is going to be a link to a solver. 
         description: | # this will include new lines to allow paragraphs
-          Descrive
+          Describe
 
 
       - layout: top-middle
