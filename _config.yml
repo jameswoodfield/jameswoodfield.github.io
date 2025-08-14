@@ -49,7 +49,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Woody, I'm a postdoc researcher at Imperial College London.
   My Research interests are:
-</mark> Scientific computing, Numerical Methods, Data Assimilation, Fluid Mechanics, Machine Learning </mark>
+  Scientific computing, Numerical Methods, Data Assimilation, Fluid Mechanics, Machine Learning 
 
 content:
   - title: Projects # Title for the section
