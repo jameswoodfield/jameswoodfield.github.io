@@ -66,7 +66,7 @@ content:
         additional_links:
           - title:  Papers associated
             icon: fab fa-github
-            link: https://arxiv.org/pdf/2405.00640
+            url: https://arxiv.org/pdf/2405.00640
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -74,7 +74,7 @@ content:
           Inviscid vortex method, 
         description: | # this will include new lines to allow paragraphs
           This is a stochastic invisid vortex method describing two dimensional fluid flow. 
-          In https://arxiv.org/pdf/2405.00640 we use the CRPS as en enseble forecast inspired loss function,
+          In we use the CRPS as en enseble forecast inspired loss function,
           with respect to data to calibrate the basis of noise. 
 
 
@@ -124,7 +124,8 @@ content:
         quote: >
           no quote
         description: | # this will include new lines to allow paragraphs
-            Stuod research project
+            Stuod research project 
+              url: https://www.imperial.ac.uk/ocean-dynamics-synergy/
 
 #-Present & Postdoc Research Assistant Mathematics, Imperial College London, UK
   
