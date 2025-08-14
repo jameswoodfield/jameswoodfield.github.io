@@ -10,9 +10,10 @@ name: James Woodfield
 title: Postdoc Research Assistant Mathematics
 email: james14641@gmail.com
 website: https://james14641.github.io
+scholar: https://scholar.google.com/citations?user=mAwYQ9AAAAAJ&hl=en
 "Google Scholar": https://scholar.google.com/citations?user=mAwYQ9AAAAAJ&hl=en
 
-# Dark Mode (true/false/never)
+darkmode: toggle
 darkmode: false
 # Social links
 #twitter_username: none
@@ -91,7 +92,7 @@ content:
 
       - layout: top-middle
         title: Exponential time integration
-        link: github.com/functioning_link
+        link: github.com/coming_soon
         # link_text: Project Website
         additional_links:
           - title:  Papers associated
@@ -131,34 +132,26 @@ content:
         caption: 2019 - 2022
         sub_title: PhD Mathematics
         quote: >
-            Time-stepping schemes allowing long timesteps
+            Under supervision of H. Weller: Time-stepping schemes allowing long timesteps
         description: | # this will include new lines to allow paragraphs
-          In the context of the next generation of numerical weather prediction models,
-          dynamical cores require time-stepping schemes that are: 
-          Consistent, 
-          Linear invariant,
-          Conserve mass locally, 
-          preserve nonlinearstability properties,
-          and remain stable at large timesteps.
-
+          During my PhD, I researched numerical algorithms for dynamical cores, focusing on time-stepping schemes that are consistent, linearly invariant, locally mass-conserving, preserve nonlinear stability properties, and remain stable even at large timesteps.
+          For the next generation of numerical weather prediction models.
       - layout: left
         title: Imperial College London 
         caption: 2018 - 2019
         sub_title: Mres Mathematics
         quote: >
-            no quote yet
+            During my Multisymplectic numerical methods with stochasticity.
         description: | # this will include new lines to allow paragraphs
-          Multisymplectic methods in the context of 
+          
       - layout: left
         title: University of Oxford
         caption: 2014 - 2018
         sub_title: MMath Mathematics
         quote: >
             no quote yet
-        description: | # this will include new lines to allow paragraphs
-          Available debt-free online:
-        url: https://courses.maths.ox.ac.uk/course/index.php?categoryid=9
-        
+              description: | # abc
+                Available online: [Oxford Mathematics Courses](https://courses.maths.ox.ac.uk/course/index.php?categoryid=9)
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
