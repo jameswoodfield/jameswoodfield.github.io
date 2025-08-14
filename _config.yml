@@ -31,7 +31,7 @@ github_username:  james14641
 # Additional icon links
 additional_links:
 - title: Scholar
-  icon: google_scholar.png #fas fa-globe
+  icon: google_scholar_2.png #fas fa-globe
   url: https://scholar.google.com/citations?user=mAwYQ9AAAAAJ&hl=en
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -47,14 +47,15 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Woody, I'm a postdoc researcher at Imperial College London.
+   Hi, my name's Woody, I'm a postdoc researcher at Imperial College London.
 
-  ## My Research Interests:
-  1. **Scientific Computing**
-  2. **Numerical Methods**
-  3. **Data Assimilation**
-  4. **Fluid Mechanics**
-  5. **Machine Learning**
+    # My Research Interests:
+    1. **Scientific Computing**
+    2. **Numerical Methods**
+    3. **Data Assimilation**
+    4. **Fluid Mechanics**
+    5. **Machine Learning**
+
 
 content:
   - title: Projects # Title for the section
@@ -65,10 +66,9 @@ content:
         link: https://github.com/James14641/Point_vortex
         # link_text: Project Website
         additional_links:
-          - title:  Papers associated
-            icon: fab fa-github
-            url: https://arxiv.org/pdf/2405.00640
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Papers associated
+            icon: fab fa-file-pdf
+            url: https://arxiv.org/pdf/2405.00640       # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
