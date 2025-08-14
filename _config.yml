@@ -48,12 +48,13 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Woody, I'm a postdoc researcher at Imperial College London.
-  My Research interests are:
-  1. Scientific computing
-  2. Numerical Methods
-  3. Data Assimilation
-  4. Fluid Mechanics
-  5. Machine Learning
+
+  ## My Research Interests:
+  1. **Scientific Computing**
+  2. **Numerical Methods**
+  3. **Data Assimilation**
+  4. **Fluid Mechanics**
+  5. **Machine Learning**
 
 content:
   - title: Projects # Title for the section
@@ -124,8 +125,8 @@ content:
         quote: >
           no quote
         description: | # this will include new lines to allow paragraphs
-            Stuod research project 
-              url: https://www.imperial.ac.uk/ocean-dynamics-synergy/
+          Stuod research project
+        url: https://www.imperial.ac.uk/ocean-dynamics-synergy/
 
 #-Present & Postdoc Research Assistant Mathematics, Imperial College London, UK
   
@@ -137,9 +138,16 @@ content:
         caption: 2019 - 2022
         sub_title: PhD Mathematics
         quote: >
-            no quote yet
+            Time-stepping schemes allowing long timesteps
         description: | # this will include new lines to allow paragraphs
-          description
+          In the context of the next generation of numerical weather prediction models,
+          dynamical cores require time-stepping schemes that are: 
+          Consistent, 
+          Linear invariant,
+          Conserve mass locally, 
+          preserve nonlinearstability properties,
+          and remain stable at large timesteps.
+
       - layout: left
         title: Imperial College London 
         caption: 2018 - 2019
@@ -147,7 +155,7 @@ content:
         quote: >
             no quote yet
         description: | # this will include new lines to allow paragraphs
-          description
+          Multisymplectic methods in the context of 
       - layout: left
         title: University of Oxford
         caption: 2014 - 2018
@@ -155,14 +163,15 @@ content:
         quote: >
             no quote yet
         description: | # this will include new lines to allow paragraphs
-          description
+          Available debt-free online:
+        url: https://courses.maths.ox.ac.uk/course/index.php?categoryid=9
         
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       List of interests:
-      - TBD
-      - TBD 2
+      - Outdoors
+      - Racket sports
 
       This is how to add image  
       ![Trees](/images/landscape-trees.jpg "Trees")
