@@ -31,7 +31,7 @@ github_username:  james14641
 # Additional icon links
 additional_links:
 - title: Scholar
-  icon: fas fa-globe
+  icon: google_scholar.png #fas fa-globe
   url: https://scholar.google.com/citations?user=mAwYQ9AAAAAJ&hl=en
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -49,7 +49,11 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Woody, I'm a postdoc researcher at Imperial College London.
   My Research interests are:
-  Scientific computing, Numerical Methods, Data Assimilation, Fluid Mechanics, Machine Learning 
+  1. Scientific computing
+  2. Numerical Methods
+  3. Data Assimilation
+  4. Fluid Mechanics
+  5. Machine Learning
 
 content:
   - title: Projects # Title for the section
@@ -67,9 +71,28 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is going to be a link to a solver. 
+          Inviscid vortex method, 
         description: | # this will include new lines to allow paragraphs
-          Describe
+          This is a stochastic invisid vortex method describing two dimensional fluid flow. 
+          In https://arxiv.org/pdf/2405.00640 we use the CRPS as en enseble forecast inspired loss function,
+          with respect to data to calibrate the basis of noise. 
+
+
+      - layout: top-middle
+        title: Data Assimilation
+        link: https://github.com/James14641/Particle_filter
+        # link_text: Project Website
+        additional_links:
+          - title:  Papers associated
+            icon: fab fa-github
+            link: To be appearing
+        quote: >
+          Collaborative project with A. Lobbe: 
+        description: | # this will include new lines to allow paragraphs
+          A sandbox for exploring (stochastic)Exponential Time Differencing (ETD) and Stochastic Integrating Factor (SIF) methods in the context of data assimilation using particle filters and Kalman filters
+
+          This repository serves as a flexible platform for testing time-stepping schemes, stochastic integration strategies, and data assimilation algorithms
+
 
 
       - layout: top-middle
