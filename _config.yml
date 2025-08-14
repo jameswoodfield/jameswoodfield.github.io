@@ -48,7 +48,8 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Woody, I'm a postdoc researcher at Imperial College London.
-  My Research interests are: <mark></mark>
+  My Research interests revolve around:
+</mark> Scientific computing, Numerical Methods, Data Assimilation, Fluid Mechanics, Machine Learning </mark>
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
