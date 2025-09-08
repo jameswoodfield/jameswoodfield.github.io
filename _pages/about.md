@@ -11,8 +11,3 @@ quantification in weather and climate models.
 
 ---
 
-📄 [CV](/files/cv.pdf)  
-📚 [Google Scholar](https://scholar.google.com/)  
-🐙 [GitHub](https://github.com/james14641)  
-✉️ [Email](mailto:your.email@imperial.ac.uk)
-
