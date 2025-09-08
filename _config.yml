@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: James Woodfield
-title: Postdoc Research Assistant Mathematics
+title: Postdoc Associate Mathematics
 email: james14641@gmail.com
 website: https://james14641.github.io
 scholar: https://scholar.google.com/citations?user=mAwYQ9AAAAAJ&hl=en
@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-   I am a Postdoctoral Research Assistant in Mathematics at Imperial College London, specialising in scientific computing, numerical methods, data assimilation, fluid mechanics, and machine learning.
+   I am a Postdoctoral Research Assistant in Mathematics at Imperial College London, my research interests are: scientific computing, numerical methods, data assimilation, fluid mechanics, and machine learning.
 
 
 content:
@@ -134,8 +134,7 @@ content:
         quote: >
             Under supervision of H. Weller: Time-stepping schemes allowing long timesteps
         description: | # this will include new lines to allow paragraphs
-          During my PhD, I researched numerical algorithms for dynamical cores, focusing on time-stepping schemes that are consistent, linearly invariant, locally mass-conserving, preserve nonlinear stability properties, and remain stable even at large timesteps.
-          For the next generation of numerical weather prediction models.
+          During my PhD, I researched numerical algorithms for dynamical cores.
       - layout: left
         title: Imperial College London 
         caption: 2018 - 2019
@@ -149,18 +148,8 @@ content:
         caption: 2014 - 2018
         sub_title: MMath Mathematics
         quote: >
-            no quote yet
-              description: | # abc
-                Available online: [Oxford Mathematics Courses](https://courses.maths.ox.ac.uk/course/index.php?categoryid=9)
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      List of interests:
-      - Outdoors
-      - Racket sports
+            Available online: [Oxford Mathematics Courses](https://courses.maths.ox.ac.uk/course/index.php?categoryid=9)
 
-      This is how to add image  
-      ![Trees](/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
