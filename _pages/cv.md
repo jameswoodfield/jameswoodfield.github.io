@@ -11,8 +11,8 @@ redirect_from:
 
 Summary
 ======
-* Postdoctoral Associate (Imperial College London)
-* Met Office (Dynamical core placement)
-* Ph.D Math (University of Reading)
-* M.Res. Math, (Imperial College London)
-* M.Math Math, (Oxford)
+Postdoctoral Associate Mathematics (Imperial College London)
+Met Office (Dynamical core placement)
+Ph.D Mathematics (University of Reading)
+M.Res. Mathematics, (Imperial College London)
+M.Math Mathematics, (Oxford)
