@@ -1,7 +1,12 @@
 ---
-title: "Portfolio item number 2"
-excerpt: "Short description of portfolio item number 2<br/><img src='/images/JCAM.png'>"
+title: "Portfolio item number 7"
+excerpt: "Short description of portfolio item number 7<br/><img src='/images/point_vortex.png'>"
 collection: portfolio
 ---
-Here we have ...
+Point vortex solver [https://github.com/James14641/Point_vortex](https://github.com/James14641/Point_vortex) 
 
+Autodifferentiation to parametrise stochastic version: 
+
+
+Relation to passive tracer advection
+<br/><img src='/images/carried_tracers.png'>
