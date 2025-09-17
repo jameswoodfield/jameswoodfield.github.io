@@ -344,7 +344,8 @@ def parse_portfolio(portfolio_dir):
     
     portfolio_files = glob.glob(os.path.join(portfolio_dir, "*.md"))
     # sort portfolio file by number in filename
-    sorted_portfolio_files = sorted(portfolio_files, key=lambda x: int(re.search(r'(\d+)', os.path.basename(x)).group(1)) if re.search(r'(\d+)', os.path.basename(x)) else float('inf'))
+    #sorted_portfolio_files = sorted(portfolio_files, key=lambda x: int(re.search(r'(\d+)', os.path.basename(x)).group(1)) if re.search(r'(\d+)', os.path.basename(x)) else float('inf'))
+    sorted_portfolio_files = sorted(portfolio_files)
     for portfolio_file in sorted_portfolio_files:
         with open(portfolio_file, 'r', encoding='utf-8') as file:
             content = file.read()
