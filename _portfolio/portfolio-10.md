@@ -22,7 +22,7 @@ u_{i,j}^{n+1}
   \Big].
 $$
 
-Reconstructions:
+Reconstructions (take $\theta =0$ or $\theta=1$):
 
 $$
 \begin{aligned}
@@ -50,12 +50,14 @@ F\left(u_{j-1}^U, u_j^D, c_{j-0.5}\right) &= c_{j-0.5}^{+} u_{j-1}^U + c_{j-0.5}
 \end{aligned}
 $$
 
-There are two new limiter regions for incompressible flow. Strictly greater than the Sweby region, Strictly contained by the Spekreijse limiter region (which is provably Discrete maximum principle violating for general incompressible flow using a flux form C-grid style implmentation). 
-
-These limiting regions are plotted in <br/><img src='/images/Limiters_2.png'
- and one can define new limiting functions $\psi$ in these regions (depending on $\theta=0,1$) for more accurate, compressible or smooth limiter functions. 
+There are two limiter regions suitable for incompressible flow (depending on $\theta=0,1$). One can define new limiting functions $\psi$ in these regions, for new finite difference and finite volume methods. 
 
  Define your own limiter function using desmos:
  [https://www.desmos.com/calculator/zxxr80vkyf](https://www.desmos.com/calculator/zxxr80vkyf)
 
  <iframe src="https://www.desmos.com/calculator/zxxr80vkyf?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+<!-- 
+
+Here are some:  -->
+<!-- <br/><img src='/images/Limiters.png'> -->
