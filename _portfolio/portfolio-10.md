@@ -13,28 +13,16 @@ $$
 u_{i,j}^{n+1} 
 &= u_{i,j}^n 
 - \Big[ 
-   F_{i+0.5}\!\left(u_i^R, u_{i+1}^L, c_{i+0.5}^n\right) 
- - F_{i-0.5}\!\left(u_{i-1}^R, u_i^L, c_{i-0.5}^n\right) 
+   F_{i+0.5}\left(u_i^R, u_{i+1}^L, c_{i+0.5}^n\right) 
+ - F_{i-0.5}\left(u_{i-1}^R, u_i^L, c_{i-0.5}^n\right) 
   \Big] \\
 &- \Big[ 
-   F_{j+0.5}\!\left(u_j^U, u_{j+1}^D, c_{j+0.5}^n\right) 
- - F_{j-0.5}\!\left(u_{j-1}^U, u_j^D, c_{j-0.5}^n\right) 
+   F_{j+0.5}\left(u_j^U, u_{j+1}^D, c_{j+0.5}^n\right) 
+ - F_{j-0.5}\left(u_{j-1}^U, u_j^D, c_{j-0.5}^n\right) 
   \Big].
 \end{align*}
 $$
 
-$$
-u_{i,j}^{n+1} 
-= u_{i,j}^n 
-- \Big[ 
-   F_{i+0.5}\!\left(u_i^R, u_{i+1}^L, c_{i+0.5}^n\right) 
- - F_{i-0.5}\!\left(u_{i-1}^R, u_i^L, c_{i-0.5}^n\right) 
-  \Big]\\
-- \Big[ 
-   F_{j+0.5}\!\left(u_j^U, u_{j+1}^D, c_{j+0.5}^n\right) 
- - F_{j-0.5}\!\left(u_{j-1}^U, u_j^D, c_{j-0.5}^n\right) 
-  \Big].
-$$
 Where the superscripts
 $R,L,U,D$ denote the right, left, up, down subcell reconstructions of a cell centered at $(i,j)$. (For example $u^R_i$ denotes the reconstructed value of the solution at $(i+1/2,j)$, right of cell center $i,j$, and $u^L_{i+1}$ denotes the reconstructed value at $(i+1/2,j)$ left of cell center $(i+1,j)$.)
 
