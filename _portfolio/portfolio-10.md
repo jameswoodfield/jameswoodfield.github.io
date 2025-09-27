@@ -26,9 +26,9 @@ $$
 Where the superscripts
 $R,L,U,D$ denote the right, left, up, down subcell reconstructions of a cell centered at $(i,j)$. (For example $u^R_i$ denotes the reconstructed value of the solution at $(i+1/2,j)$, right of cell center $i,j$, and $u^L_{i+1}$ denotes the reconstructed value at $(i+1/2,j)$ left of cell center $(i+1,j)$.)
 
-<img src="images/C-grid.png" alt="C-grid diagram">
+<img src="/images/C-grid.png" alt="C-grid diagram">
 
-![C-grid diagram](images/C-grid.png)
+![C-grid diagram](/images/C-grid.png)
 
 
 Reconstructions assume $$\theta = 0$$ or $$\theta=1$$ and one limits the slope
