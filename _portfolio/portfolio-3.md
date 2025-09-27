@@ -19,7 +19,7 @@ The solution is
 $$
 u(x,t) = u_0(x-aW(t)),
 $$ 
-and remains bounded in both $|u|_{BV}$, $|u|_{L^{\infty}}$. We describe the proceedure to make the forward Euler scheme monotone.  
+and remains bounded in both $$|u|_{BV}$$, $$|u|_{L^{\infty}}$$. We describe the proceedure to make the forward Euler scheme monotone.  
 
 ___
 ### Approach 1
@@ -27,9 +27,9 @@ ___
 
 After a discretisation in space, using the first order upwind method one attains the following system
 $$
-d u_i +  \frac{a}{\Delta x} (u_{i}-u_{i-1}) dW = 0,
+d u_i +  \frac{a}{\Delta x} (u_{i}-u_{i-1}) dW = 0.
 $$
-this can be described as follows 
+<!-- this can be described as follows 
 $$
 d_t 
 \begin{bmatrix}
@@ -53,7 +53,7 @@ u_n
 \end{bmatrix}
 dW = 0 
 $$
-and considered a SDE after the method of lines.
+and considered a SDE after the method of lines. -->
 
 If one were to discretise by the Euler-Maruyama scheme one would get
 $$
@@ -67,24 +67,31 @@ $$\frac{a\Delta W^n}{\Delta x}
 requiring the boundedness and positivity of $\Delta W^n$, a condition not satisfied if $\Delta W^n\sim N(0,1)$. 
 
 
-In order to make the scheme capable of handling negative increments we shall make the scheme itself dependent on the particular realisation of the increment, one now defines a new adaptive scheme
+In order to make the scheme capable of handling negative increments we shall define a new scheme, itself dependent on the particular realisation of the increment, consider the new adaptive scheme:
 $$
 u^{n+1}_i = u^n_i - \frac{a(\Delta W^n)^+}{\Delta x} (u_{i}-u_{i-1}) - \frac{a(\Delta W^n)^-}{\Delta x} (u_{i}-u_{i+1})  = 0
 $$
 
-where $(c)^{+} = c + |c|, (c)^{-} = c-|c|$ denote the positive or negative component of the input. 
+where $$(c)^{+} = c + |c|$$, $$(c)^{-} = c-|c|$$ denote the positive or negative component of the input. 
 
-Here, if $\Delta W^n \in\sqrt{\Delta t}[0,A_{\Delta t}]$,  we recover the scheme
+Here, if $$\Delta W^n \in\sqrt{\Delta t}[0,A_{\Delta t}]$$,  we recover the scheme
 $$
-u^{n+1}_i = u^n_i - \frac{a(\Delta W^n)^+}{\Delta x} (u_{i}-u_{i-1})  = 0
+u^{n+1}_i = u^n_i - \frac{a(\Delta W^n)^+}{\Delta x} (u_{i}-u_{i-1})  
+$$
+$$
+u^{n+1}_i = \left(1- \frac{a(\Delta W^n)^+}{\Delta x}\right) u^n_i  + \frac{a(\Delta W^n)^+}{\Delta x}u_{i-1}
 $$
 if 
-$\Delta W^n \in
-\sqrt{\Delta t}[-A_{\Delta t},0]$,  we recover the scheme
+$$\Delta W^n \in
+\sqrt{\Delta t}[-A_{\Delta t},0]$$,  we recover the scheme
 $$
-u^{n+1}_i = u^n_i - \frac{a(\Delta W^n)^-}{\Delta x} (u_{i}-u_{i+1})= 0
+u^{n+1}_i = u^n_i - \frac{a(\Delta W^n)^-}{\Delta x} (u_{i}-u_{i+1})
 $$
-Therefore, by standard convex condition arguements one attains: $$u^{n+1}_{i} 
+$$
+u^{n+1}_i = \left( 1-\frac{a(\Delta W^n)^-}{\Delta x}\right) u^n_i +\frac{a(\Delta W^n)^-}{\Delta x} u_{i+1}
+$$
+Therefore, $u^{n+1}_i$ is either a convex combination of $$u^{n}_{i-1},u^{n}_{i}$$ or $$u^{n}_{i},u^{n}_{i+1}$$ giving the following principle:
+$$u^{n+1}_{i} 
 \in [\min \lbrace u^{n}_{i-1},u^{n}_{i},u^{n}_{i+1}\rbrace,\max\lbrace u^{n}_{i-1},u^{n}_{i},u^{n}_{i+1}\rbrace],$$
 for all possible increments when
 $$\left(1-\frac{a\sqrt{\Delta t}A_{\Delta t}}{\Delta x}\right)\geq 0
