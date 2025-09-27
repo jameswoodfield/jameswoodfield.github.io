@@ -22,7 +22,7 @@ u_{i,j}^{n+1}
   \Big].
 $$
 
-Reconstructions (take $\theta =0$ or $\theta=1$):
+Reconstructions (assuming $$\theta = 0$$ or $$\theta=1$$ ):
 
 $$
 \begin{aligned}
@@ -56,7 +56,7 @@ There are two limiter regions suitable for incompressible flow (depending on $\t
  [https://www.desmos.com/calculator/zxxr80vkyf](https://www.desmos.com/calculator/zxxr80vkyf)
 
  <iframe src="https://www.desmos.com/calculator/zxxr80vkyf?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
-
+ 
 <!-- 
 
 Here are some:  -->
