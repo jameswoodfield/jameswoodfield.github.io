@@ -8,6 +8,20 @@ The following limiting regimes were proven sufficient for a discrete local maxim
 **Woodfield, J.**, Weller, H., & Cotter, C. J. (2024). New limiter regions for multidimensional flows. *Journal of Computational Physics*, 515(113286), 113286. [https://doi.org/10.1016/j.jcp.2024.113286](https://doi.org/10.1016/j.jcp.2024.113286)
 
 Given a finite difference or finite volume scheme taking the following update formula:
+$$
+\begin{align*}
+u_{i,j}^{n+1} 
+&= u_{i,j}^n 
+- \Big[ 
+   F_{i+0.5}\!\left(u_i^R, u_{i+1}^L, c_{i+0.5}^n\right) 
+ - F_{i-0.5}\!\left(u_{i-1}^R, u_i^L, c_{i-0.5}^n\right) 
+  \Big] \\
+&- \Big[ 
+   F_{j+0.5}\!\left(u_j^U, u_{j+1}^D, c_{j+0.5}^n\right) 
+ - F_{j-0.5}\!\left(u_{j-1}^U, u_j^D, c_{j-0.5}^n\right) 
+  \Big].
+\end{align*}
+$$
 
 $$
 u_{i,j}^{n+1} 
