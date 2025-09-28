@@ -10,15 +10,8 @@ The following limiting regimes were proven sufficient for a discrete local maxim
 Given a finite difference or finite volume scheme:
 $$
 u_{i,j}^{n+1} 
-= u_{i,j}^n 
-- \Big[ 
-   F_{i+0.5}\left(u_i^R, u_{i+1}^L, c_{i+0.5}^n\right) 
- - F_{i-0.5}\left(u_{i-1}^R, u_i^L, c_{i-0.5}^n\right) 
-  \Big] 
-- \Big[ 
-   F_{j+0.5}\left(u_j^U, u_{j+1}^D, c_{j+0.5}^n\right) 
- - F_{j-0.5}\left(u_{j-1}^U, u_j^D, c_{j-0.5}^n\right) 
-  \Big].
+= u_{i,j}^n - \Big[ F_{i+0.5}\left(u_i^R, u_{i+1}^L, c_{i+0.5}^n\right) - F_{i-0.5}\left(u_{i-1}^R, u_i^L, c_{i-0.5}^n\right) \Big] - \Big[ F_{j+0.5}\left(u_j^U, u_{j+1}^D, c_{j+0.5}^n\right) - F_{j-0.5}\left(u_{j-1}^U, u_j^D, c_{j-0.5}^n\right) 
+\Big].
 $$
 
 Where the superscripts
