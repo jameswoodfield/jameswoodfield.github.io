@@ -30,9 +30,9 @@ $$
 u^{n+1}_i = u^n_i - \frac{(\Delta W^n)^+}{\Delta x} (u_{i}-u_{i-1}) - \frac{(\Delta W^n)^-}{\Delta x} (u_{i}-u_{i+1})  = 0
 $$
 
-where $$(c)^{+}$$, $$(c)^{-}$$ denote the positive or negative component of the input. Therefore, $u^{n+1}_i$ is either a convex combination of $$u^{n}_{i-1},u^{n}_{i}$$ or $$u^{n}_{i},u^{n}_{i+1}$$ giving the following principle:
+where $$(c)^{+}$$, $$(c)^{-}$$ denote the positive or negative component of the input. Therefore, $u^{n+1}_i$ is either a convex combination giving the following principle:
 $$u^{n+1}_{i} 
-\in [\min \lbrace u^{n}_{i-1},u^{n}_{i},u^{n}_{i+1}\rbrace,\max\lbrace u^{n}_{i-1},u^{n}_{i},u^{n}_{i+1}\rbrace],$$
+\in [\min \left( u^{n}_{i-1},u^{n}_{i},u^{n}_{i+1}\right),\max\left( u^{n}_{i-1},u^{n}_{i},u^{n}_{i+1}\right)\rbrace],$$
 for all possible increments when
 $$\left(1-\frac{\sqrt{\Delta t}A_{\Delta t}}{\Delta x}\right)\geq 0
 $$. 
