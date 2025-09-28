@@ -30,25 +30,7 @@ $$
 u^{n+1}_i = u^n_i - \frac{(\Delta W^n)^+}{\Delta x} (u_{i}-u_{i-1}) - \frac{(\Delta W^n)^-}{\Delta x} (u_{i}-u_{i+1})  = 0
 $$
 
-where $$(c)^{+}$$, $$(c)^{-}$$ denote the positive or negative component of the input. 
-
-Here, if $$\Delta W^n \in\sqrt{\Delta t}[0,A_{\Delta t}]$$,  we recover the scheme
-$$
-u^{n+1}_i = u^n_i - \frac{(\Delta W^n)^+}{\Delta x} (u_{i}-u_{i-1})  
-$$
-$$
-u^{n+1}_i = \left(1- \frac{(\Delta W^n)^+}{\Delta x}\right) u^n_i  + \frac{(\Delta W^n)^+}{\Delta x}u_{i-1}
-$$
-if 
-$$\Delta W^n \in
-\sqrt{\Delta t}[-A_{\Delta t},0]$$,  we recover the scheme
-$$
-u^{n+1}_i = u^n_i - \frac{a(\Delta W^n)^-}{\Delta x} (u_{i}-u_{i+1})
-$$
-$$
-u^{n+1}_i = \left( 1-\frac{(\Delta W^n)^-}{\Delta x}\right) u^n_i +\frac{(\Delta W^n)^-}{\Delta x} u_{i+1}
-$$
-Therefore, $u^{n+1}_i$ is either a convex combination of $$u^{n}_{i-1},u^{n}_{i}$$ or $$u^{n}_{i},u^{n}_{i+1}$$ giving the following principle:
+where $$(c)^{+}$$, $$(c)^{-}$$ denote the positive or negative component of the input. Therefore, $u^{n+1}_i$ is either a convex combination of $$u^{n}_{i-1},u^{n}_{i}$$ or $$u^{n}_{i},u^{n}_{i+1}$$ giving the following principle:
 $$u^{n+1}_{i} 
 \in [\min \lbrace u^{n}_{i-1},u^{n}_{i},u^{n}_{i+1}\rbrace,\max\lbrace u^{n}_{i-1},u^{n}_{i},u^{n}_{i+1}\rbrace],$$
 for all possible increments when
@@ -56,14 +38,11 @@ $$\left(1-\frac{\sqrt{\Delta t}A_{\Delta t}}{\Delta x}\right)\geq 0
 $$. 
 This is true when the following CFL condition is satisfied.
 $$
-\sqrt{\Delta t} A_{\Delta t} \leq \Delta x$$
-i.e. one scales the timestep in accordance with the mesh spacing. 
-
-If one uses a 2-point random variable $\Delta W\in \sqrt{\Delta t}[-1,1]$, with equal probability, the timestep restriction is 
+\sqrt{\Delta t} A_{\Delta t} \leq \Delta x
 $$
-\Delta t \leq \frac{\Delta x^2}
+If one uses a 2-point random variable taking values $1$ or $-1$ with equal probability $0.5$, the timestep restriction is 
 $$
-
-
+\Delta t \leq \frac{\Delta x^2}.
+$$
 _______
 
