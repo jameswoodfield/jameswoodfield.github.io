@@ -7,26 +7,24 @@ The following limiting regimes were proven sufficient for a discrete local maxim
 <br/><img src='/images/Limiters_2.png'>
 **Woodfield, J.**, Weller, H., & Cotter, C. J. (2024). New limiter regions for multidimensional flows. *Journal of Computational Physics*, 515(113286), 113286. [https://doi.org/10.1016/j.jcp.2024.113286](https://doi.org/10.1016/j.jcp.2024.113286)
 
-Given a finite difference or finite volume scheme taking the following update formula:
+Given a finite difference or finite volume scheme:
 $$
-\begin{align*}
 u_{i,j}^{n+1} 
-&= u_{i,j}^n 
+= u_{i,j}^n 
 - \Big[ 
    F_{i+0.5}\left(u_i^R, u_{i+1}^L, c_{i+0.5}^n\right) 
  - F_{i-0.5}\left(u_{i-1}^R, u_i^L, c_{i-0.5}^n\right) 
-  \Big] \\
-&- \Big[ 
+  \Big] 
+- \Big[ 
    F_{j+0.5}\left(u_j^U, u_{j+1}^D, c_{j+0.5}^n\right) 
  - F_{j-0.5}\left(u_{j-1}^U, u_j^D, c_{j-0.5}^n\right) 
   \Big].
-\end{align*}
 $$
 
 Where the superscripts
 $R,L,U,D$ denote the right, left, up, down subcell reconstructions of a cell centered at $(i,j)$. (For example $u^R_i$ denotes the reconstructed value of the solution at $(i+1/2,j)$, right of cell center $i,j$, and $u^L_{i+1}$ denotes the reconstructed value at $(i+1/2,j)$ left of cell center $(i+1,j)$.)
 
-<br/><img src='/images/C-grid.png'>
+<!-- <br/><img src='/images/C-grid.png'> -->
 
 <!-- <img src="/images/C-grid.png" alt="C-grid diagram"> -->
 
