@@ -1,6 +1,6 @@
 ---
 title: "Monotone conservative strategies in data assimilation"
-excerpt: "https://arxiv.org/pdf/2502.12775[https://arxiv.org/pdf/2502.12775] <br/><img src='/images/Monotone.png'>"
+excerpt: "[https://arxiv.org/pdf/2502.12775](https://arxiv.org/pdf/2502.12775) <br/><img src='/images/Monotone.png'>"
 collection: portfolio
 ---
 
