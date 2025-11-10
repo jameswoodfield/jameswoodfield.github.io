@@ -12,6 +12,8 @@ redirect_from:
 
 ### 2025–present
 
+Lobbe. A, & **Woodfield, J.** Easy-to-Implement One-Step Schemes for Stochastic Integration *arXiv preprint arXiv:2508.21664* [math.NA]. [https://arxiv.org/abs/2510.12583](https://arxiv.org/abs/2510.12583)
+
 Ephrati, S., & **Woodfield, J.** (2025). Trajectory learning for ensemble forecasts via the continuous ranked probability score: a Lorenz ’96 case study. *arXiv preprint arXiv:2508.21664* [math.NA]. [http://arxiv.org/abs/2508.21664](http://arxiv.org/abs/2508.21664)
 
 **Woodfield, J.** (2025). Monotone conservative strategies in data assimilation. *arXiv preprint arXiv:2502.12775* [physics.comp-ph] (in review). [http://arxiv.org/abs/2502.12775](http://arxiv.org/abs/2502.12775)
